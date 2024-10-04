@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea"; // Asegúrate de tener este componente
 import { Label } from "@/components/ui/label";
 
 export default function ContactPage() {
@@ -36,7 +37,7 @@ export default function ContactPage() {
             </div>
             <div>
               <Label htmlFor="message">Tu mensaje*</Label>
-              <Input id="message" placeholder="Tu mensaje" required as="textarea" className="bg-white text-gray-900" />
+              <Textarea id="message" placeholder="Tu mensaje" required className="bg-white text-gray-900" />
             </div>
             <Button type="submit" className="bg-blue-500 text-white hover:bg-blue-600">¡HABLEMOS!</Button>
           </form>
