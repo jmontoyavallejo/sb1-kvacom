@@ -1,3 +1,5 @@
+"use client"; // Add this line to convert to a Client Component
+
 import { Button } from "@/components/ui/button";
 
 export default function DemoPage() {
