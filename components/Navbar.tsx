@@ -58,6 +58,9 @@ export default function Navbar() {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
+            <Button variant="ghost">
+  <Link href="/contact">Contacto</Link>
+</Button>
             <Button
               variant="ghost"
               size="icon"

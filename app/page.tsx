@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500">
+    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex flex-col justify-center">
       <div className="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h1 className="text-5xl font-bold text-white mb-6">
