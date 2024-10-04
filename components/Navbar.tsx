@@ -32,7 +32,7 @@ export default function Navbar() {
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <Link href="/products/mystery-shopping">Compra Misteriosa</Link>
+                  <Link href="/products/mystery-shopping">Mystery Shopping</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link href="/products/customer-surveys">Encuestas de Clientes</Link>

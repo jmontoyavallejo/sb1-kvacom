@@ -8,27 +8,27 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h1 className="text-5xl font-bold text-white mb-6">
-            Plataforma de IA para Evaluación de Experiencia del Cliente sin Esfuerzo
+            Impulsa tu Negocio con Consultoría de Gestión Estratégica
           </h1>
           <p className="text-xl text-white mb-8">
-            Nuestras soluciones de IA galardonadas optimizan los procesos de compra misteriosa, ahorrándole tiempo y costos.
+            En Customer experience 360, ofrecemos soluciones personalizadas para maximizar el rendimiento empresarial y optimizar tus procesos.
           </p>
           <p className="text-xl text-white mb-8">
-            Adopte el futuro de la evaluación rápida y sin problemas de la experiencia del cliente y déjenos el resto a nosotros.
+            Desde la planificación estratégica hasta la gestión de recursos humanos, estamos aquí para ayudarte a alcanzar tus objetivos y aumentar tus ingresos.
           </p>
-          <div className="space-x-4">
-            <Button asChild size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
-              <Link href="/sign-up">Comenzar Ahora</Link>
+          <div className="space-y-4 lg:space-y-0 lg:space-x-4">
+            <Button asChild size="lg" className="w-full lg:w-auto bg-white text-purple-600 hover:bg-gray-100">
+              <Link href="/sign-up">Comienza tu Transformación</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-purple-600">
-              <Link href="/demo">Ver una Demostración</Link>
+            <Button asChild size="lg" variant="outline" className="w-full lg:w-auto text-purple-600 border-white hover:bg-white hover:text-purple-600">
+              <Link href="/demo">Solicita una Demostración</Link>
             </Button>
           </div>
         </div>
         <div className="lg:w-1/2">
           <Image
             src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-            alt="Experiencia del Cliente"
+            alt="Consultoría de Gestión"
             width={500}
             height={500}
             className="rounded-lg shadow-2xl"
