@@ -1,0 +1,1 @@
+// This file can be safely deleted as it was used for Clerk authentication
